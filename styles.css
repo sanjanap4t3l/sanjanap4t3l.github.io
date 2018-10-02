@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: purple;
+}
+
+#p1 {
+    color: orange; 
+}
+
+#p1 {
+    color: blue; 
+}
+
+p a {
+    color: #11a4bf
+}
+/* html needs unique id by p, but can have same class */
+#p2 {
+    color: green; 
+}
+
+.tacos {
+    font-size: 72px;
+    color: blue; 
+}
+
+
+h3 {
+    border-color: aqua;
+    border-style: dotted;
+    border-width: 25px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px rgb(255, 0, 242);
+}
+
+
+img {
+    height: 100px;
+    border-style: double;
+    border-color: purple;
+    padding: 10px 30px 10px 100px;
+    background-color: gray;
+}
+
+body {
+    background-color:burlywood;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
