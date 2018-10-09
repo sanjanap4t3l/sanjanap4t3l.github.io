@@ -1,56 +1,22 @@
-h1 {
-    color: red;
+.jumbotron { 
+    background-image: url(headshot.jpg*);
+    background-attachment: scroll; 
+    background-size: cover;
+    height: 1000px
+} 
+
+.body { 
+    font-family: 'Open Sans', sans-serif;
+} 
+
+h1.display-4 { 
+    font-family: 'Raleway', sans-serif;
 }
 
-h2 {
-    color: purple;
+.accordion{ 
+    padding: 10px 100px 100px 100px;
 }
 
-#p1 {
-    color: orange; 
-}
-
-#p1 {
-    color: blue; 
-}
-
-p a {
-    color: #11a4bf
-}
-/* html needs unique id by p, but can have same class */
-#p2 {
-    color: green; 
-}
-
-.tacos {
-    font-size: 72px;
-    color: blue; 
-}
-
-
-h3 {
-    border-color: aqua;
-    border-style: dotted;
-    border-width: 25px;
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px rgb(255, 0, 242);
-}
-
-
-img {
-    height: 100px;
-    border-style: double;
-    border-color: purple;
-    padding: 10px 30px 10px 100px;
-    background-color: gray;
-}
-
-body {
-    background-color:burlywood;
-    text-align: center;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
+.portfolio-header{ 
+    padding: 10px 0px 0px 100px;
 }
