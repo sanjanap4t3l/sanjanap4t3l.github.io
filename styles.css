@@ -1,8 +1,9 @@
 .jumbotron { 
-    background-image: url(headshot-2.png);
-    background-attachment: scroll; 
+    background-image: url(headshot.jpg);
+    background-attachment: fixed; 
     background-size: cover;
     height: 1000px;
+    
 } 
 
 .body { 
@@ -11,28 +12,13 @@
 
 h1.display-4 { 
     font-family: 'Raleway', sans-serif;
-}
-
-.accordion{ 
-    padding: 10px 100px 25px 100px;
-}
-
-.portfolio-header{ 
-    padding: 25px 0px 0px 100px;
-}
-
-.table { 
-    padding: 100px 100px 100px 100px;
-}
-
-.icons { 
-    font-size: 60px;
-    display: block;
+    background-color: white;
     text-align: center;
 }
 
-.col-lg-4{ 
-    padding: 50px 50px 0px 50px;
+.lead { 
+    background-color: white;
+    text-align: center;
 }
 
 .bio { 
@@ -40,3 +26,46 @@ h1.display-4 {
     margin-left: 110px;
     margin-right: 110px;
 }
+
+.accordion{ 
+    padding: 10px 100px 25px 100px;
+}
+
+.btn.btn-primary.btn-sm{ 
+    background-color: #724db7;
+}
+
+.btn.btn-link { 
+    color: #724db7;
+    font-weight: bold;
+}
+
+.portfolio-header{ 
+    padding: 25px 0px 0px 100px;
+}
+
+.card-title { 
+    font-weight: bold;
+}
+
+.card-link { 
+    color: #724db7;
+}
+
+.col-lg-4{ 
+    padding: 50px 50px 0px 50px;
+}
+
+a:hover { 
+    color: gray;
+}
+
+.contact-icons { 
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    color: #724db7;
+}
+
+
+
