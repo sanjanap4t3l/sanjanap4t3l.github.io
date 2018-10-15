@@ -1,8 +1,8 @@
 .jumbotron { 
-    background-image: url(headshot.jpg*);
+    background-image: url(headshot-2.png);
     background-attachment: scroll; 
     background-size: cover;
-    height: 1000px
+    height: 1000px;
 } 
 
 .body { 
@@ -14,9 +14,29 @@ h1.display-4 {
 }
 
 .accordion{ 
-    padding: 10px 100px 100px 100px;
+    padding: 10px 100px 25px 100px;
 }
 
 .portfolio-header{ 
-    padding: 10px 0px 0px 100px;
+    padding: 25px 0px 0px 100px;
+}
+
+.table { 
+    padding: 100px 100px 100px 100px;
+}
+
+.icons { 
+    font-size: 60px;
+    display: block;
+    text-align: center;
+}
+
+.col-lg-4{ 
+    padding: 50px 50px 0px 50px;
+}
+
+.bio { 
+    display: block;
+    margin-left: 110px;
+    margin-right: 110px;
 }
